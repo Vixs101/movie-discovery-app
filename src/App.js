@@ -3,7 +3,7 @@ import SearchBar from './components/searchBar';
 import './components/searchBar.css';
 import HeroText from './components/heroText';
 
-function App() {
+function HeroSection() {
   return (
     <div className='hero_section'>
       <nav className='navbar'>
@@ -19,4 +19,4 @@ function App() {
   );
 }
 
-export default App;
+export default HeroSection;

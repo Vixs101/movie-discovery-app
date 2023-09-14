@@ -1,0 +1,56 @@
+/* styling the card components */
+.displayMovies {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 50px; /* Gap between cards */
+}
+/* movie card */
+.card {
+    position: relative;
+    background-color: #f0f0f0; 
+    width: 98%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+/* card poster */
+.poster {
+    width: 100%;
+    height: 70%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+/* title */
+.title {
+    color: var(--gray-900, #111827);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* release date */
+.releaseDate {
+    color: var(--gray-400, #9CA3AF);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* favorites */
+.icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #D1D5DB;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 29.211px;
+    border-radius: 50px;
+    background-color: rgba(243, 244, 246, 0.50);
+}
+.icon:hover {
+    color: var(--rose-700, #BE123C);   
+}
