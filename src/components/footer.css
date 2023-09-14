@@ -1,0 +1,39 @@
+/* styling the footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 145px;
+    width: 492px;
+    margin:auto;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    width: 240px;
+    height:27.4;
+}
+
+.terms {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: var(--gray-900, #111827);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.copyright {
+    color: var(--gray-500, #6B7280);
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

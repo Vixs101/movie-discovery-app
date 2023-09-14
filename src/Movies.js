@@ -1,5 +1,6 @@
 import './App.css';
 import DisplayMovies from './components/displayMovies';
+import Footer from './components/footer';
 
 function Movies() {
     return (
@@ -9,6 +10,7 @@ function Movies() {
                 <p><a href='blank' className='seeMore'>See More &gt;</a></p>
             </div>
             <DisplayMovies />
+            <Footer />
         </div>
     );
 }
