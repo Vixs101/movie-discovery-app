@@ -1,8 +1,58 @@
 /* hero text */
+.heroText {
+    height:63.67%;
+    width:32.0%;
+    margin-top: 95px;
+    color:#FFF;
+}
 h1 {
     color: #FFF;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: 56px;
+    margin:0;
+}
+/* styling the ratings div */
+.ratings {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin:0;
+}
+
+/* styling the images */
+.IMDB {
+    height: 17px;
+    width: 35px;
+}
+.rottenTomato {
+    height: 17px;
+    width: 16px;
+}
+/* adding margin to the child elements */
+.ratings > *:not(:first-child) {
+    margin-left: 16px;
+}
+
+/* styling the pargraph */
+.paragraph{
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    margin-top: 0;
+}
+/* button */
+.watch {
+    border-radius: 6px;
+    background: var(--rose-700, #BE123C);
+    padding: 6px 16px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.watch:hover {
+    background-color: #e03d65;
 }

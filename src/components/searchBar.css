@@ -8,7 +8,7 @@
     align-items: center;
     border-radius: 6px;
     border: 2px solid white;
-  }
+}
 
 /* styling the input tag */
 input[type="text"] {
@@ -18,7 +18,10 @@ input[type="text"] {
     background-color: transparent;
     color: white;
     width: 70%;
-
+}
+/* focus */
+input:focus {
+    outline: none;
 }
 /* placeholder styles */
 input::placeholder{

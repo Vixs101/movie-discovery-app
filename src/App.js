@@ -11,7 +11,7 @@ function App() {
         <SearchBar />
         <div className='box'>
           <a href='blank' className='sign_in'>Sign in</a>
-          <img src='/menu_img.png' alt='Menu' className='menu_img' />
+          <a href='blank'><img src='/menu_img.png' alt='Menu' className='menu_img' /></a>
         </div>
       </nav>
       <HeroText />
