@@ -1,11 +1,45 @@
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  width: 100%;
+}
+/* styling the nav bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px; 
+  gap:27px;
+}
+/* hero section */
+.hero_section {
+  width: 100%;
+  height: 600px;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  background-image: url('../public/hero_img.png');
+  background-size: cover;
 }
 
-.hero_section {
-  width: 1440px;
-  height: 600px;
-  flex-shrink: 0;
-  /* background-image: ; */
+/* styling the sign in link */
+.sign_in {
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+}
+
+.sign_in:hover {
+  border-bottom: 2px solid #BE123C ;
+}
+/* menu img */
+.menu_img {
+  width: 50px;
+  height: 50px;
 }

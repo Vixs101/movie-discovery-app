@@ -1,0 +1,37 @@
+/* SearchBar.css */
+.search_bar {
+    display: flex;
+    width: 525px;
+    height: 20px;
+    padding: 6px 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    border: 2px solid white;
+  }
+
+/* styling the input tag */
+input[type="text"] {
+    font-size: 16px;
+    border: none;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    width: 70%;
+
+}
+/* placeholder styles */
+input::placeholder{
+    font-size:16px;
+    color: white;
+}
+
+/* search button */
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+}
+  
